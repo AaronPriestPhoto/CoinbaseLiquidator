@@ -1,0 +1,41 @@
+# Coinbase API Key - NEVER COMMIT THIS FILE
+cdp_api_key.json
+
+# Alternative API key file names
+api_key.json
+coinbase_api_key.json
+*.json
+
+# Log files
+*.log
+liquidation.log
+
+# CSV reports
+coinbase_liquidation_report_*.csv
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
