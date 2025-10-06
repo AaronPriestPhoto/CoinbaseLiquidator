@@ -16,6 +16,15 @@ Usage:
     python coinbase_liquidation.py --live --min-threshold 10.0  # Set minimum USD value
 """
 
+import os
+import sys
+
+# Ensure the script works from any working directory (useful for StreamDeck buttons)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
+if script_dir not in sys.path:
+    sys.path.insert(0, script_dir)
+
 import argparse
 import csv
 import json
