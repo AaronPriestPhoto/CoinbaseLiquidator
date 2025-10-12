@@ -4,18 +4,24 @@ A Python script to automatically liquidate all cryptocurrencies (except USDC and
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### 1. Clone the Repository
+```bash
+git clone https://github.com/AaronPriestPhoto/CoinbaseLiquidator.git
+cd CoinbaseLiquidator
+```
+
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Test Your Connection
+### 3. Test Your Connection
 ```bash
 python test_connection.py
 ```
 This will verify your API key works and show your account balances with a detailed portfolio summary.
 
-### 3. Run Trial Liquidation
+### 4. Run Trial Liquidation
 ```bash
 python coinbase_liquidation.py
 ```
